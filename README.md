@@ -60,7 +60,7 @@ composer update
 
 ## Here are some of the website preview
 
-Below is the home menu 
+Below is the home menu <br/>
 ![App Screenshot](https://i.ibb.co/n6mD9mY/ssweb1.png) 
  
 
