@@ -37,8 +37,10 @@ If the required software is already met, then we proceed to the next step :
 5. Open the project folder using VS Code
 6. Press "Ctrl + J" to open the command console (without quotation marks)
 7. Type  ```composer install```  and wait until it finish
-8. Type ```php artisan migrate:fresh --seed``` to insert the data into the MySQL
-9. Type ``` php artisan serve``` and click the provided link in the console
+8. Type ```php artisan storage:link``` to link the images
+9. Type ```php artisan migrate``` to create all tables on database
+10. Type ```php artisan migrate:fresh --seed``` to insert the data into the MySQL
+11. Type ``` php artisan serve``` and click the provided link in the console
 
 ## Known Issues
 
