@@ -42,7 +42,7 @@ If the required software is already met, then we proceed to the next step :
 9. Type ```php artisan storage:link``` to link the images
 10. Type ```php artisan migrate:fresh --seed``` to insert the data into the MySQL
 11. Type ```php artisan optimize``` to optimizing the performance framework
-12. Type ``` php artisan serve``` and click the provided link in the console
+12. Type ```php artisan serve``` and click the provided link in the console
 
 ## Known Issues
 
