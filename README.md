@@ -1,77 +1,64 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-![Logo](https://i.ibb.co/MkLczbw/bantu-kios-01.png)
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
+## About Laravel
 
-## Introduction
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-MSMEs/Micro (Small and Medium-Sized Enterprises) is currently growing rapidly. A lot of MSMEs bussiness are being opened especially in Indonesia. These MSMEs have many variety things that they sell. Some of them are able to successfully run the bussiness and some of them are not. In order to overcome the problem, we provide a website that will provide aid for MSMEs owners.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-BantuKios is a E-commerce that built using [Laravel 8](https://laravel.com/) (a [PHP](https://www.php.net/) framework). BantuKios is made in purpose to help MSMEs/Micro (Small and Medium-Sized Enterprises) bussiness. In this website there are some features to help them.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Learning Laravel
 
- 
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-## Features
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-In this website, MSMEs owners are able to advertise their products. MSMEs owners also can directly sell their products in our website. So when there's a customer who want to buy their products, they can directly purchase through our website.      
-For the admin of the website, they are able to manage the MSMEs products as requested by the owners.  
+## Laravel Sponsors
 
- 
-####  As for the MSMEs owners they can :
-- Contact our admin to add their products
-- Advertise their products in our website
-- Directly send their products to the customer
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
+### Premium Partners
 
-## Project Guide Installation
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-#### First of all make sure to have the required software :
-- [PHP Composer](https://getcomposer.org/download/)
-- [XAMPP](https://www.apachefriends.org/download.html)
-- Text Editor (We recommend [VS Code](https://code.visualstudio.com/download))
+## Contributing
 
-If the required software is already met, then we proceed to the next step :
-1. Download the project from out github
-2. Place the folder anywhere on your PC directory
-3. Start XAMPP with Apache and MySQL server
-4. Create database with the name "bantukios" (without quotation marks)
-5. Open the project folder using VS Code
-6. Press "Ctrl + J" to open the command console (without quotation marks)
-7. Type  ```composer install```  and wait until it finish
-8. Type ```php artisan migrate:fresh --seed``` to insert the data into the MySQL
-9. Type ``` php artisan serve``` and click the provided link in the console
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Known Issues
+## Code of Conduct
 
-- If the website says ```500 server error``` please input these command in the VS Code console command 
-```
-composer install 
-mv .env.example .env 
-php artisan cache:clear (or) php artisan optimize
-composer dump-autoload 
-php artisan key:generate
-```
-- If there is a PHP version error please input these command in the VS Code console command
-```
-composer update
-```
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
+## Security Vulnerabilities
 
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## Here are some of the website preview
+## License
 
-Below is the home menu <br/>
-![App Screenshot](https://i.ibb.co/n6mD9mY/ssweb1.png) 
- 
-
-Below is the product detail <br/>
-![App Screenshot](https://i.ibb.co/p484QT4/ssweb2.png ) 
-
-
-## Authors
-
-- [@briliyansanjaya](https://github.com/briliyansanjaya) --> 2440042954 - Briliyan Sanjaya Hartono
-- [@steveledres](https://github.com/steveledres) --> 2401960492 - Steven Mario Ledres
-- [@JetaAdhisatya](https://github.com/JetaAdhisatya) --> 2440044070 - Jeta Adhisatya
-- [@zxxcs](https://github.com/zxxcs) --> 2401961412 - Daniel Justine
-- [@Arindd](https://github.com/Arindd) --> 2440012895 - Hansen
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
