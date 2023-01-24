@@ -64,7 +64,7 @@ Below is the home menu <br/>
 ![App Screenshot](https://i.ibb.co/n6mD9mY/ssweb1.png) 
  
 
-Below is the product detail 
+Below is the product detail <br/>
 ![App Screenshot](https://i.ibb.co/p484QT4/ssweb2.png ) 
 
 
